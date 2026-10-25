@@ -335,7 +335,7 @@ The primary development and testing configuration is focused on the following ha
 | CPU | Intel Core i5-12400F |
 | RAM | 16GB |
 | Operating System | Windows 11 |
-| Graphics Driver | 26.5.2 |
+| Graphics Driver | AMD Adrenalin 26.5.2 |
 | Performance Observed | Approximately 40–60 FPS during developer testing |
 
 Results may differ on other configurations. Refer to the release notes for any additional hardware or software requirements.
