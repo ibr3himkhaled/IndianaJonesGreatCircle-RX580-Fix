@@ -8,7 +8,6 @@
 ![GPU](https://img.shields.io/badge/GPU-AMD_RX_580-ED1C24?style=for-the-badge&logo=amd&logoColor=white)
 ![API](https://img.shields.io/badge/Graphics-Compatibility_Fix-0078D6?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white)
-![Distribution](https://img.shields.io/badge/Distribution-Windows_Installer-6F42C1?style=for-the-badge)
 ![Target](https://img.shields.io/badge/Target-AMD_Polaris-ED1C24?style=for-the-badge)
 
 **Developed and tested primarily on the AMD Radeon RX 580 8GB.**
