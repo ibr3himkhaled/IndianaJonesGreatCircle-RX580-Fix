@@ -121,11 +121,9 @@ Use the installer provided for a single release. Do not mix files from different
 ### Step 2 — Install the Fix
 
 1. Make sure the game is installed and is not currently running.
-2. Run the downloaded setup file.
-3. Follow the installer's instructions.
-4. Select the correct game installation directory if prompted.
-5. Allow the installer to install the required compatibility components and launcher.
-6. Wait for the installation to finish before starting the game.
+2. Download the required fix files.
+3. Extract Zip file.
+4. Copy fix files to game folder.
 
 Keep a backup of important game files before installing any compatibility modification.
 
