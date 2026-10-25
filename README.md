@@ -97,7 +97,7 @@ The RX 580 8GB is the primary development and testing target. Compatibility and 
 - A dedicated `IJGCLauncher.exe` launcher.
 - Game-specific compatibility adjustments.
 - Compatibility components designed to work together as a single package.
-- A Windows installer to simplify installation of the required files.
+- A ZIP-based portable package with manual installation and no installer required.
 - Testing focused primarily on the AMD Radeon RX 580 8GB.
 - Successful gameplay testing on the target hardware.
 - Reported performance of approximately 40–60 FPS during the developer's testing sessions.
@@ -109,47 +109,97 @@ The RX 580 8GB is the primary development and testing target. Compatibility and 
 
 ## Installation
 
-### Step 1 — Download the Installer
+### Step 1 — Download the ZIP Package
 
-Download the latest available installer from the project's GitHub Releases page:
+Download the latest available ZIP package from the project's GitHub Releases page:
 
 **[⬇️ Download Indiana Jones and the Great Circle — RX 580 Fix](../../releases/latest)**
 
-Use the installer provided for a single release. Do not mix files from different releases or unrelated compatibility projects.
+The fix is distributed as a **ZIP archive containing the required compatibility files**. There is no installer required.
 
-### Step 2 — Install the Fix
+### Step 2 — Extract the ZIP Archive
 
-1. Make sure the game is installed and is not currently running.
-2. Download the required fix files.
-3. Extract Zip file.
-4. Copy fix files to game folder.
+1. Make sure the game is installed and completely closed.
+2. Download the ZIP archive from the project's Releases page.
+3. Right-click the downloaded ZIP file and select **Extract All**, or use your preferred archive utility.
+4. Extract the archive to a temporary folder so you can access the compatibility files.
+
+The package contains the following files:
+
+```text
+IJGCLauncher.exe
+IJGCLauncher.dll
+IJGCLauncher.deps.json
+IJGCLauncher.runtimeconfig.json
+ijgc_rtstub.dll
+VK_LAYER_IJGC_RTSTUB.json
+```
+
+**Keep all six files together.** Do not rename, remove, or separate individual files from the package.
+
+### Step 3 — Copy the Fix Files into the Game Folder
+
+1. Open the folder where you extracted the ZIP archive.
+2. Select all six files listed above.
+3. Copy the files into the game's installation directory.
+4. If Windows asks whether to replace existing files from a previous installation of this fix, make sure you have a backup before proceeding.
+
+Keep the launcher and its accompanying files together in the location required by the release.
+
+> [!IMPORTANT]
+> **This package does not include an installer. You must manually extract the ZIP archive and copy the files into the correct game folder.**
+>
+> Do not copy only `IJGCLauncher.exe`. The launcher requires its accompanying files to remain available in the expected locations.
 
 Keep a backup of important game files before installing any compatibility modification.
 
-Do not manually replace individual DLLs or compatibility files with versions from unrelated projects.
+### Step 4 — Start the Game with the Correct Launcher
 
-### Step 3 — Start the Game with the Correct Launcher
-
-After installation, locate and run:
+After copying the files, locate and run:
 
 ```text
 IJGCLauncher.exe
 ```
 
 > [!IMPORTANT]
-> **Always start the game through `IJGCLauncher.exe` when using this fix.**
+> **Always launch the game through `IJGCLauncher.exe` when using this compatibility fix.**
 >
-> Starting the game's standard executable directly may bypass the intended compatibility startup process and prevent the fix from working correctly.
+> Do not launch the game's standard executable directly unless the project's release documentation explicitly states otherwise.
+>
+> Starting the game directly may bypass the intended compatibility startup process and prevent the fix from working correctly.
 
-The launcher is an essential part of the intended startup process for this compatibility setup.
+`IJGCLauncher.exe` is the intended entry point for this compatibility setup.
 
-### Step 4 — First Launch
+### Step 5 — First Launch
 
 The first launch may take longer than subsequent launches, depending on graphics initialization, shader compilation, and other runtime operations.
 
-Allow the game enough time to start before assuming that it has failed.
+Allow the game enough time to initialize before assuming that startup has failed.
 
-If the game does not start, collect the relevant logs and check the troubleshooting section before modifying or deleting files.
+If the game does not start, check the Troubleshooting section and collect any relevant error messages or logs before modifying or deleting files.
+
+---
+
+## Updating or Removing the Fix
+
+### Updating to a New Release
+
+1. Close the game completely.
+2. Download the new ZIP archive from the project's Releases page.
+3. Extract the archive.
+4. Back up the files belonging to your existing fix.
+5. Replace the previous fix files with the files from the new release.
+6. Start the game through `IJGCLauncher.exe`.
+
+Do not mix files from different releases. Use the complete set of files supplied in the same ZIP archive.
+
+### Removing the Fix
+
+1. Close the game completely.
+2. Remove the compatibility files installed from this package.
+3. Restore any original files you backed up if they were replaced.
+
+**Do not delete unrelated game files.** Only remove files that belong to this compatibility package.
 
 ---
 
@@ -296,11 +346,11 @@ Results may differ on other configurations. Refer to the release notes for any a
 
 ### The Game Does Not Start
 
-- Confirm that the installation completed successfully.
+- Confirm that you extracted the ZIP archive correctly.
 - Start the game through **`IJGCLauncher.exe`**.
-- Verify that the required compatibility files from the same release are present.
+- Verify that all six required files from the same release are present.
+- Confirm that the files are in the correct game directory.
 - Check whether security software quarantined a required file.
-- Confirm that the game installation directory is correct.
 - Collect the relevant logs before changing or deleting files.
 
 ### The Game Starts but Crashes
@@ -328,11 +378,13 @@ Report when the stuttering occurs and whether it can be reproduced consistently.
 
 ### `IJGCLauncher.exe` Is Missing
 
-Verify that the installer completed successfully and check whether security software removed the launcher.
+- Make sure you downloaded the complete ZIP package from the project's Releases page.
+- Extract the archive before attempting to run the launcher.
+- Verify that `IJGCLauncher.exe` and all accompanying files are present.
+- Check whether security software quarantined any required file.
+- If a file is missing, extract a fresh copy of the same release and restore the missing file.
 
-If necessary, repair the installation using the installer associated with the same release.
-
-Do not download individual launcher files from untrusted sources.
+**Do not download individual launcher files from untrusted sources.** Always use the complete package from the project's official Releases page.
 
 ### The Fix Stops Working After a Game Update
 
