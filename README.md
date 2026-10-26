@@ -78,7 +78,7 @@ Two separate ZIP packages are available for different game editions.
 
 **Do not mix the files from these packages.** Select the one that matches your installed version of the game.
 
-### Package 1 — Non-Steam Version
+### Package 1 — Non-Steam Version (Cracked)
 
 **Filename:**
 
@@ -106,7 +106,7 @@ Steam users should select this package rather than the Non-Steam package.
 
 | Package | Intended Game Edition | Installation |
 |:---|:---|:---|
-| `IndianaJonesGreatCircle-RX580-Fix-Setup-v1.0.0.zip` | Compatible Non-Steam installations | Manual ZIP extraction |
+| `IndianaJonesGreatCircle-RX580-Fix-Setup-v1.0.0.zip` | Compatible Non-Steam (Cracked) installations | Manual ZIP extraction |
 | `IndianaJonesGreatCircle-RX580-Steam-Fix-v1.0.0.zip` | Original Steam version | Manual ZIP extraction |
 
 > [!WARNING]
