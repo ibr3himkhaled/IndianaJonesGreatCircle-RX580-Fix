@@ -12,7 +12,7 @@
 
 **Developed and tested primarily on the AMD Radeon RX 580 8GB.**
 
-[⬇️ Download the Fix](../../releases/latest) · [Report an Issue](../../issues)
+[⬇️ Download the Fix](../../releases) · [Report an Issue](../../issues)
 
 ---
 
@@ -46,11 +46,18 @@ Your support helps fund continued research, development, debugging, and compatib
 
 ## Overview
 
-This project provides a custom compatibility solution for **Indiana Jones and the Great Circle**, targeting the **AMD Radeon RX 580 8GB** and other potentially compatible GPUs based on AMD's Polaris architecture.
+This project provides a custom graphics compatibility solution for **Indiana Jones and the Great Circle**, targeting the **AMD Radeon RX 580 8GB** and other potentially compatible GPUs based on AMD's Polaris architecture.
 
 The project aims to make the game playable on older AMD hardware that is not officially supported by the game's standard hardware requirements.
 
-The compatibility package includes a dedicated launcher and the required project-specific components intended to work together to start the game on the target hardware.
+The fix includes a dedicated launcher and project-specific compatibility components intended to work together to start the game on the target hardware.
+
+The project provides **two separate ZIP packages** to accommodate different game editions:
+
+- **Non-Steam Package:** Intended for compatible non-Steam game installations.
+- **Steam Package:** Intended for the original Steam version of the game.
+
+Each package contains its own set of compatibility files. Choose the package corresponding to your game edition.
 
 The fix has been tested on an AMD Radeon RX 580 8GB, achieving a reported performance range of approximately **40–60 FPS with stable performance during the developer's testing sessions**.
 
@@ -59,11 +66,61 @@ Actual performance depends on the game scene, graphics settings, driver version,
 > [!IMPORTANT]
 > **You must launch the game using `IJGCLauncher.exe` when using this compatibility fix.**
 >
-> Do not launch the standard game executable directly unless the project's release documentation explicitly states otherwise.
->
-> `IJGCLauncher.exe` is the intended entry point for this compatibility setup.
+> The launcher is the intended entry point for the compatibility setup. Starting the game's standard executable directly may bypass the intended startup process.
 
-The RX 580 8GB is the primary development and testing target. Compatibility and performance on other GPUs, drivers, and system configurations may vary.
+The RX 580 8GB is the primary development and testing target. Compatibility and performance on other GPUs, drivers, game editions, and system configurations may vary.
+
+---
+
+## 📦 Choose the Correct Package
+
+Two separate ZIP packages are available for different game editions.
+
+**Do not mix the files from these packages.** Select the one that matches your installed version of the game.
+
+### Package 1 — Non-Steam Version
+
+**Filename:**
+
+```text
+IndianaJonesGreatCircle-RX580-Fix-Setup-v1.0.0.zip
+```
+
+This package is intended for compatible non-Steam installations of Indiana Jones and the Great Circle.
+
+Despite `Setup` appearing in the filename, **this is a ZIP archive, not a Windows installer**. The files must be extracted and copied manually.
+
+### Package 2 — Original Steam Version
+
+**Filename:**
+
+```text
+IndianaJonesGreatCircle-RX580-Steam-Fix-v1.0.0.zip
+```
+
+This package is specifically prepared for the original Steam version of Indiana Jones and the Great Circle.
+
+Steam users should select this package rather than the Non-Steam package.
+
+### Package Comparison
+
+| Package | Intended Game Edition | Installation |
+|:---|:---|:---|
+| `IndianaJonesGreatCircle-RX580-Fix-Setup-v1.0.0.zip` | Compatible Non-Steam installations | Manual ZIP extraction |
+| `IndianaJonesGreatCircle-RX580-Steam-Fix-v1.0.0.zip` | Original Steam version | Manual ZIP extraction |
+
+> [!WARNING]
+> **The two packages are separate compatibility builds and should not be used interchangeably.**
+>
+> Download the package matching your game edition. Do not combine files from the Steam and Non-Steam packages.
+
+### Download
+
+Both packages will be published through the project's GitHub Releases page.
+
+[⬇️ **View All Releases and Download the Correct Package**](../../releases)
+
+Choose the appropriate release and download the ZIP archive matching your game edition.
 
 ---
 
@@ -71,8 +128,6 @@ The RX 580 8GB is the primary development and testing target. Compatibility and 
 
 > [!IMPORTANT]
 > **The compatibility fix has been tested with a newer version of Indiana Jones and the Great Circle, and the game runs successfully on the developer's RX 580 configuration.**
->
-> Unlike compatibility projects that require a specific older game build, this project is intended to work with the game version confirmed in the corresponding fix release.
 >
 > Game updates may change executable files, shaders, rendering behavior, or other components that affect compatibility.
 >
@@ -85,7 +140,9 @@ The RX 580 8GB is the primary development and testing target. Compatibility and 
 ### Important Notes
 
 - Do not downgrade the game unnecessarily if your installed version is already confirmed to work with the fix.
-- Keep the compatibility files from a single release together.
+- Keep the compatibility files from a single package together.
+- Use the Steam package only with the intended Steam game installation.
+- Use the Non-Steam package only with a compatible Non-Steam installation.
 - Do not assume every future game update will remain compatible.
 - Report version-specific problems with enough information to reproduce them.
 
@@ -97,34 +154,41 @@ The RX 580 8GB is the primary development and testing target. Compatibility and 
 - A dedicated `IJGCLauncher.exe` launcher.
 - Game-specific compatibility adjustments.
 - Compatibility components designed to work together as a single package.
-- A ZIP-based portable package with manual installation and no installer required.
+- Two separate ZIP packages for different game editions.
+- Manual installation without a Windows installer.
 - Testing focused primarily on the AMD Radeon RX 580 8GB.
 - Successful gameplay testing on the target hardware.
 - Reported performance of approximately 40–60 FPS during the developer's testing sessions.
 - Ongoing investigation into graphics compatibility, performance, and stability.
 
-> Performance depends on the GPU, driver, game version, graphics settings, and scene complexity. The reported 40–60 FPS result is based on the developer's testing configuration and is not a universal FPS guarantee.
+> Performance depends on the GPU, driver, game edition, game version, graphics settings, and scene complexity. The reported 40–60 FPS result is based on the developer's testing configuration and is not a universal FPS guarantee.
 
 ---
 
 ## Installation
 
-### Step 1 — Download the ZIP Package
+### Step 1 — Identify Your Game Edition
 
-Download the latest available ZIP package from the project's GitHub Releases page:
+Before downloading the fix, determine which edition of Indiana Jones and the Great Circle you have installed.
 
-**[⬇️ Download Indiana Jones and the Great Circle — RX 580 Fix](../../releases/latest)**
+- **Original Steam version:** Download `IndianaJonesGreatCircle-RX580-Steam-Fix-v1.0.0.zip`.
+- **Compatible Non-Steam version:** Download `IndianaJonesGreatCircle-RX580-Fix-Setup-v1.0.0.zip`.
 
-The fix is distributed as a **ZIP archive containing the required compatibility files**. There is no installer required.
+Download the appropriate package from the project's Releases page:
+
+[**⬇️ View Available Downloads**](../../releases)
+
+> [!WARNING]
+> Do not download one package and assume it will work with both game editions. The packages have been prepared separately for their intended configurations.
 
 ### Step 2 — Extract the ZIP Archive
 
 1. Make sure the game is installed and completely closed.
-2. Download the ZIP archive from the project's Releases page.
+2. Download the ZIP archive matching your game edition.
 3. Right-click the downloaded ZIP file and select **Extract All**, or use your preferred archive utility.
-4. Extract the archive to a temporary folder so you can access the compatibility files.
+4. Extract the archive to a temporary folder.
 
-The package contains the following files:
+The package contains the following compatibility files:
 
 ```text
 IJGCLauncher.exe
@@ -135,23 +199,27 @@ ijgc_rtstub.dll
 VK_LAYER_IJGC_RTSTUB.json
 ```
 
-**Keep all six files together.** Do not rename, remove, or separate individual files from the package.
+**Keep all six files together.**
+
+Do not rename, remove, or separate individual files from the package.
+
+The Steam and Non-Steam packages must remain separate. Always use the complete set of files provided in your selected archive.
 
 ### Step 3 — Copy the Fix Files into the Game Folder
 
 1. Open the folder where you extracted the ZIP archive.
 2. Select all six files listed above.
-3. Copy the files into the game's installation directory.
-4. If Windows asks whether to replace existing files from a previous installation of this fix, make sure you have a backup before proceeding.
+3. Copy the files into the game installation directory specified for your package.
+4. If Windows asks whether to replace files from a previous installation, make sure you have a backup before proceeding.
 
 Keep the launcher and its accompanying files together in the location required by the release.
 
 > [!IMPORTANT]
-> **This package does not include an installer. You must manually extract the ZIP archive and copy the files into the correct game folder.**
+> **There is no Windows installer. You must manually extract the ZIP archive and copy the files into the correct game folder.**
 >
-> Do not copy only `IJGCLauncher.exe`. The launcher requires its accompanying files to remain available in the expected locations.
+> Do not copy only `IJGCLauncher.exe`. The launcher requires its accompanying files to remain available in their expected locations.
 
-Keep a backup of important game files before installing any compatibility modification.
+Keep backups of important game files before installing any compatibility modification.
 
 ### Step 4 — Start the Game with the Correct Launcher
 
@@ -164,11 +232,9 @@ IJGCLauncher.exe
 > [!IMPORTANT]
 > **Always launch the game through `IJGCLauncher.exe` when using this compatibility fix.**
 >
-> Do not launch the game's standard executable directly unless the project's release documentation explicitly states otherwise.
->
-> Starting the game directly may bypass the intended compatibility startup process and prevent the fix from working correctly.
+> Do not launch the game's standard executable directly unless the release documentation explicitly states otherwise.
 
-`IJGCLauncher.exe` is the intended entry point for this compatibility setup.
+The dedicated launcher is the intended entry point for this compatibility setup.
 
 ### Step 5 — First Launch
 
@@ -185,13 +251,16 @@ If the game does not start, check the Troubleshooting section and collect any re
 ### Updating to a New Release
 
 1. Close the game completely.
-2. Download the new ZIP archive from the project's Releases page.
-3. Extract the archive.
-4. Back up the files belonging to your existing fix.
-5. Replace the previous fix files with the files from the new release.
-6. Start the game through `IJGCLauncher.exe`.
+2. Identify your game edition.
+3. Download the updated ZIP package matching that edition.
+4. Extract the archive.
+5. Back up the files belonging to your existing fix.
+6. Replace the previous compatibility files with the files from the new package.
+7. Start the game through `IJGCLauncher.exe`.
 
-Do not mix files from different releases. Use the complete set of files supplied in the same ZIP archive.
+**Important:** Do not replace files from a Steam installation with files from the Non-Steam package, or vice versa.
+
+Use the complete set of files supplied in the same package and follow the release notes for any additional instructions.
 
 ### Removing the Fix
 
@@ -200,6 +269,8 @@ Do not mix files from different releases. Use the complete set of files supplied
 3. Restore any original files you backed up if they were replaced.
 
 **Do not delete unrelated game files.** Only remove files that belong to this compatibility package.
+
+If you installed another package previously, verify which files belong to each installation before removing them.
 
 ---
 
@@ -263,11 +334,11 @@ The launcher and compatibility components are intended to work together as a sin
 
 ### Important Implementation Notes
 
-- Use the launcher and compatibility files supplied with the same release.
+- Use the launcher and compatibility files supplied with the same package.
 - Do not remove required files without understanding their purpose.
 - Do not replace individual components with DLLs from unrelated projects.
-- Do not combine files from different compatibility-fix versions.
-- Follow the installation procedure documented for your release.
+- Do not combine files from different releases or game-edition packages.
+- Follow the installation procedure documented for your selected release.
 
 The implementation may evolve between releases as compatibility research and testing continue.
 
@@ -301,6 +372,7 @@ If you experience frame drops or stuttering, include the following details when 
 - The approximate frame rate before and during the problem.
 - Your graphics settings.
 - Your GPU driver version.
+- Your game edition.
 - Your game version and compatibility-fix version.
 - Whether the issue occurs consistently or only occasionally.
 
@@ -348,24 +420,45 @@ Results may differ on other configurations. Refer to the release notes for any a
 
 - Confirm that you extracted the ZIP archive correctly.
 - Start the game through **`IJGCLauncher.exe`**.
-- Verify that all six required files from the same release are present.
+- Verify that all six required files from the same package are present.
 - Confirm that the files are in the correct game directory.
 - Check whether security software quarantined a required file.
-- Collect the relevant logs before changing or deleting files.
+- Verify that you downloaded the package matching your game edition.
+- Collect relevant logs before changing or deleting files.
+
+### Steam Users: The Game Does Not Start
+
+- Confirm that you downloaded `IndianaJonesGreatCircle-RX580-Steam-Fix-v1.0.0.zip`.
+- Verify that you copied the Steam package's files into the intended game directory.
+- Ensure that all accompanying launcher files are present.
+- Start the game through `IJGCLauncher.exe`.
+- Record any error messages or crash information before making additional changes.
+
+Do not substitute files from the Non-Steam package to troubleshoot a Steam installation.
+
+### Non-Steam Users: The Game Does Not Start
+
+- Confirm that you downloaded `IndianaJonesGreatCircle-RX580-Fix-Setup-v1.0.0.zip`.
+- Verify that the package is compatible with your game build.
+- Ensure that all accompanying launcher files are present.
+- Start the game through `IJGCLauncher.exe`.
+- Record any error messages or crash information before making additional changes.
+
+Do not substitute files from the Steam package to troubleshoot a Non-Steam installation.
 
 ### The Game Starts but Crashes
 
-- Confirm that you are using the launcher and compatibility files supplied with the same release.
-- Record the game version and compatibility-fix version.
+- Confirm that you are using the launcher and compatibility files supplied with the same package.
+- Record your game edition, game version, and compatibility-fix version.
 - Check for relevant error messages or crash reports.
 - Avoid replacing individual compatibility components with files from unrelated projects.
 - Include reproducible steps when reporting the issue.
 
 ### Missing Textures or Other Rendering Problems
 
-- Verify that all required files from the installed release are present.
-- Avoid mixing compatibility files from different versions.
-- Record the game build, GPU driver version, and the location where the problem occurs.
+- Verify that all required files from the installed package are present.
+- Avoid mixing compatibility files from different releases.
+- Record the game edition, game build, GPU driver version, and the location where the problem occurs.
 - Include screenshots or logs when opening an issue.
 
 ### Stuttering or Frame Drops
@@ -381,8 +474,8 @@ Report when the stuttering occurs and whether it can be reproduced consistently.
 - Make sure you downloaded the complete ZIP package from the project's Releases page.
 - Extract the archive before attempting to run the launcher.
 - Verify that `IJGCLauncher.exe` and all accompanying files are present.
-- Check whether security software quarantined any required file.
-- If a file is missing, extract a fresh copy of the same release and restore the missing file.
+- Check whether security software quarantined a required file.
+- If a file is missing, extract a fresh copy of the same package and restore the missing file.
 
 **Do not download individual launcher files from untrusted sources.** Always use the complete package from the project's official Releases page.
 
@@ -390,7 +483,7 @@ Report when the stuttering occurs and whether it can be reproduced consistently.
 
 A game update may change files or behavior required by the compatibility setup.
 
-Record the exact game version or build, the compatibility-fix version, and the symptoms you observe.
+Record the exact game version or build, your game edition, the compatibility-fix version, and the symptoms you observe.
 
 Check the project's release notes for compatibility updates before making additional modifications.
 
@@ -404,8 +497,9 @@ Before opening an issue, include as many of the following details as possible:
 - CPU and system RAM.
 - Windows version.
 - Graphics-driver version.
+- Game edition: Steam or Non-Steam.
 - Game version or build.
-- Compatibility-fix release version.
+- Compatibility-fix package and release version.
 - Confirmation that the game was started through `IJGCLauncher.exe`.
 - Whether the problem occurs at startup or during gameplay.
 - Steps to reproduce the problem.
