@@ -1,7 +1,7 @@
 <div align="center">
 
-# Indiana Jones and the Great Circle
-## AMD Radeon RX 580 Compatibility Fix
+# Indiana Jones and the Great Circle 
+## AMD Radeon RX 580 Compatibility Fix (Not uploaded yet)
 
 **A community-developed graphics compatibility project for AMD Polaris GPUs.**
 
