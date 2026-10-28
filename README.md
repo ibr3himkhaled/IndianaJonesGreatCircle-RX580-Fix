@@ -183,7 +183,7 @@ Choose the appropriate release and download the ZIP archive matching your game e
 
 Before downloading the fix, determine which edition of Indiana Jones and the Great Circle you have installed.
 
-- **Original Steam version:** Download `IndianaJonesGreatCircle-RX580-Steam-Fix-v1.0.3p`.
+- **Original Steam version:** Download `IndianaJonesGreatCircle-RX580-Steam-Fix-v1.0.3`.
 - **Compatible Non-Steam version:** Download `IndianaJonesGreatCircle-RX580-Cracked-Fix-v1.0.3`.
 
 Download the appropriate package from the project's Releases page:
@@ -309,28 +309,6 @@ An SSD is recommended for a smoother overall experience, particularly when deali
 - An SSD cannot eliminate every source of stuttering or guarantee a particular FPS improvement.
 
 **Recommendation:** Install the game on an SSD whenever possible, especially if you experience long loading times or asset-streaming problems.
-
----
-
-## Recommended: Lossless Scaling
-
-For users who want to experiment with smoother perceived motion, **Lossless Scaling** is an optional companion application.
-
-[![Lossless Scaling on Steam](https://img.shields.io/badge/Steam-Lossless_Scaling-1B2838?style=for-the-badge&logo=steam&logoColor=white)](https://store.steampowered.com/app/993090/Lossless_Scaling/)
-
-Lossless Scaling includes image-scaling and frame-generation features that may improve perceived smoothness when configured appropriately.
-
-### Notes for RX 580 Users
-
-- Lossless Scaling is a separate application and is **not included** with this compatibility fix.
-- Frame generation requires additional GPU resources and may reduce the game's base FPS when the GPU is already heavily loaded.
-- Results depend on the base frame rate, game settings, display mode, and application configuration.
-- A reasonably stable base frame rate generally provides a better starting point for frame generation.
-- Use a supported display mode and follow Lossless Scaling's own instructions.
-
-**Lossless Scaling is optional.** It does not replace the compatibility fix and cannot guarantee smoother results on every system.
-
-Frame generation can improve perceived motion, but generated frames are not equivalent to additional natively rendered frames.
 
 ---
 
