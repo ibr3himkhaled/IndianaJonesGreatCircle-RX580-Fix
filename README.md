@@ -418,7 +418,7 @@ Results may differ on other configurations. Refer to the release notes for any a
 
 ### Steam Users: The Game Does Not Start
 
-- Confirm that you downloaded `IndianaJonesGreatCircle-RX580-Steam-Fix-v1.0.0.zip`.
+- Confirm that you downloaded `IndianaJonesGreatCircle-RX580-Steam-Fix-v1.0.3`.
 - Verify that you copied the Steam package's files into the intended game directory.
 - Ensure that all accompanying launcher files are present.
 - Start the game through `IJGCLauncher.exe`.
@@ -428,7 +428,7 @@ Do not substitute files from the Non-Steam package to troubleshoot a Steam insta
 
 ### Non-Steam Users: The Game Does Not Start
 
-- Confirm that you downloaded `IndianaJonesGreatCircle-RX580-Fix-Setup-v1.0.0.zip`.
+- Confirm that you downloaded `IndianaJonesGreatCircle-RX580-Cracked-Fix-v1.0.3`.
 - Verify that the package is compatible with your game build.
 - Ensure that all accompanying launcher files are present.
 - Start the game through `IJGCLauncher.exe`.
