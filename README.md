@@ -95,7 +95,7 @@ Two separate ZIP packages are available for different game editions.
 **Filename:**
 
 ```text
-IndianaJonesGreatCircle-RX580-Fix-Setup-v1.0.0.zip
+IndianaJonesGreatCircle-RX580-Cracked-Fix-v1.0.3
 ```
 
 This package is intended for compatible non-Steam installations of Indiana Jones and the Great Circle.
@@ -107,7 +107,7 @@ Despite `Setup` appearing in the filename, **this is a ZIP archive, not a Window
 **Filename:**
 
 ```text
-IndianaJonesGreatCircle-RX580-Steam-Fix-v1.0.0.zip
+IndianaJonesGreatCircle-RX580-Steam-Fix-v1.0.3
 ```
 
 This package is specifically prepared for the original Steam version of Indiana Jones and the Great Circle.
@@ -118,8 +118,8 @@ Steam users should select this package rather than the Non-Steam package.
 
 | Package | Intended Game Edition | Installation |
 |:---|:---|:---|
-| `IndianaJonesGreatCircle-RX580-Fix-Setup-v1.0.0.zip` | Compatible Non-Steam (Cracked) installations | Manual ZIP extraction |
-| `IndianaJonesGreatCircle-RX580-Steam-Fix-v1.0.0.zip` | Original Steam version | Manual ZIP extraction |
+| `IndianaJonesGreatCircle-RX580-Cracked-Fix-v1.0.3` | Compatible Non-Steam (Cracked) installations | Manual ZIP extraction |
+| `IndianaJonesGreatCircle-RX580-Steam-Fix-v1.0.3` | Original Steam version | Manual ZIP extraction |
 
 > [!WARNING]
 > **The two packages are separate compatibility builds and should not be used interchangeably.**
@@ -183,8 +183,8 @@ Choose the appropriate release and download the ZIP archive matching your game e
 
 Before downloading the fix, determine which edition of Indiana Jones and the Great Circle you have installed.
 
-- **Original Steam version:** Download `IndianaJonesGreatCircle-RX580-Steam-Fix-v1.0.0.zip`.
-- **Compatible Non-Steam version:** Download `IndianaJonesGreatCircle-RX580-Fix-Setup-v1.0.0.zip`.
+- **Original Steam version:** Download `IndianaJonesGreatCircle-RX580-Steam-Fix-v1.0.3p`.
+- **Compatible Non-Steam version:** Download `IndianaJonesGreatCircle-RX580-Cracked-Fix-v1.0.3`.
 
 Download the appropriate package from the project's Releases page:
 
