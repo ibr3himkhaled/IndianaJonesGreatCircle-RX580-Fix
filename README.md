@@ -16,6 +16,18 @@
 
 ---
 
+## 🙏 Special Thanks
+
+A special thank you to **Zatt** and **ChristoGevedjov** for helping test this compatibility fix and providing valuable feedback throughout development.
+
+Their testing, feedback, and help identifying issues played an important role in troubleshooting and resolving multiple problems before the public release.
+
+I'm grateful for their time, effort, and contribution to making this project more stable and reliable for the community.
+
+**Thank you both for helping make this release possible!**
+
+---
+
 ## ❤️ Support My Work
 
 Hi, I'm **Ibrahim Khaled**, an independent developer working on compatibility fixes that help older AMD graphics cards run modern games.
