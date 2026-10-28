@@ -18,7 +18,7 @@
 
 ## 🙏 Special Thanks
 
-A special thank you to **Zatt** and **ChristoGevedjov** for helping test this compatibility fix and providing valuable feedback throughout development.
+A special thanks to **Zatt** and **ChristoGevedjov** for helping test this compatibility fix and providing valuable feedback throughout development.
 
 Their testing, feedback, and help identifying issues played an important role in troubleshooting and resolving multiple problems before the public release.
 
