@@ -62,6 +62,16 @@ Your support makes a real difference and helps me keep developing, improving, an
 
 ---
 
+## 🎮 Explore My Other Game Fixes
+
+Looking for compatibility fixes for other games?
+
+Check out my GitHub repositories to discover more game fixes and compatibility projects.
+
+[**Browse All My Game Fixes on GitHub →**](https://github.com/ibr3himkhaled?tab=repositories)
+
+---
+
 ## Overview
 
 This project provides a custom graphics compatibility solution for **Indiana Jones and the Great Circle**, targeting the **AMD Radeon RX 580 8GB** and other potentially compatible GPUs based on AMD's Polaris architecture.
