@@ -1,6 +1,6 @@
 <div align="center">
 
-# Indiana Jones and the Great Circle 
+# Indiana Jones and the Great Circle
 ## AMD Radeon RX 580 Compatibility Fix
 
 **A community-developed graphics compatibility project for AMD Polaris GPUs.**
@@ -14,6 +14,8 @@
 
 [⬇️ Download the Fix](https://stly.link/IndianaJonesGreatCircle) · [Report an Issue](../../issues)
 
+</div>
+
 ---
 
 ## 🙏 Special Thanks
@@ -22,7 +24,7 @@ A special thanks to **Zatt** and **ChristoGevedjov** for helping test this compa
 
 Their testing, feedback, and help identifying issues played an important role in troubleshooting and resolving multiple problems before the public release.
 
-I'm grateful for their time, effort, and contribution to making this project more stable and reliable for the community.
+I'm truly grateful for their time, effort, and contribution to making this project more stable and reliable for the community.
 
 **Thank you both for helping make this release possible!**
 
@@ -30,27 +32,33 @@ I'm grateful for their time, effort, and contribution to making this project mor
 
 ## ❤️ Support My Work
 
-Hi, I'm **Ibrahim Khaled**, an independent developer working on compatibility fixes that help older AMD graphics cards run modern games.
+Hi, I'm **Ibrahim Khaled**, an independent developer from Egypt, working on compatibility fixes that help older AMD graphics cards run modern games.
 
-Developing these projects involves graphics API investigation, shader analysis, debugging, compatibility research, and repeated testing.
+Developing these projects requires countless hours of research, reverse engineering, graphics API investigation, shader analysis, debugging, and testing. I dedicate my own time and resources to making modern games accessible to people who are still using older hardware.
 
-If this project has been useful to you, please consider supporting the development of future fixes.
+I want to be honest with you. **Life in Egypt has become extremely difficult financially, and I'm facing real challenges covering my living expenses while trying to continue this development work.**
+
+I genuinely love what I do, and I want to continue developing compatibility fixes, supporting more games, and helping the gaming community. However, continuing this work has become increasingly difficult without financial support.
+
+**I genuinely need your financial support to continue.**
+
+Your contributions will help me cover my living expenses and dedicate more time to research, development, debugging, and maintaining existing compatibility projects. They will also help me work on new fixes for older AMD GPUs.
+
+<div align="center">
 
 ### ☕ Support Development
 
-[![GitHub Sponsors](https://img.shields.io/badge/GitHub-Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/ibr3himkhaled)
+**I'm asking for your support to help me continue doing this work.**
 
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-Support_Me-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/ibr3himkhaled)
 
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-Support-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/ibr3himkhap)
-
 [![PayPal](https://img.shields.io/badge/PayPal-Donate-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/IbrahimKhaled011)
 
-**All donations are optional. The compatibility fix is intended to remain free.**
+**My compatibility fixes will remain free and publicly available.**
 
-Your support helps fund continued research, development, debugging, and compatibility testing for older GPUs.
+Your support makes a real difference and helps me keep developing, improving, and sharing these projects with the community.
 
-**Thank you for supporting independent development!**
+**Thank you for believing in my work and helping me move forward. ❤️**
 
 </div>
 
@@ -522,7 +530,7 @@ Developed through independent graphics compatibility research, debugging, experi
 ---
 
 <div align="center">
-
-**The fix is free to use. Support is always optional.**
+  
+**The compatibility fix remains free and publicly available. Your support helps make continued development possible.**
 
 </div>
