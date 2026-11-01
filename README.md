@@ -12,8 +12,6 @@
 
 **Developed and tested primarily on the AMD Radeon RX 580 8GB.**
 
-[⬇️ Download the Fix](https://stly.link/IndianaJonesGreatCircle) · [Report an Issue](../../issues)
-
 </div>
 
 ---
